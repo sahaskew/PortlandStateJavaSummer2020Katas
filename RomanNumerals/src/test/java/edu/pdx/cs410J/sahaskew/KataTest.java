@@ -12,7 +12,7 @@ public class KataTest
   public void romanNumeralfor1isI() {
     assertThat(Kata.romanNumeralfor(1), equalTo("I"));
   }
-
+  @Test
   public void romanNumeralfor5isV() {
     assertThat(Kata.romanNumeralfor(5), equalTo("V"));
   }
