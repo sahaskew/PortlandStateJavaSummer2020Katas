@@ -15,5 +15,6 @@ public class Kata {
   }
 
   public static String romanNumeralfor(int i) {
+    return "I";
   }
 }
