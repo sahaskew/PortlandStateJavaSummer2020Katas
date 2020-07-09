@@ -22,6 +22,9 @@ public class Kata {
     else if(i==5){
       return "V";
     }
+    else if(i==9){
+      return "IX";
+    }
     else if(i==10){
       return "X";
     }
