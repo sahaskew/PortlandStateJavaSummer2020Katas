@@ -13,4 +13,8 @@ public class KataTest
     assertThat(Kata.romanNumeralfor(1), equalTo("I"));
   }
 
+  public void romanNumeralfor5isV() {
+    assertThat(Kata.romanNumeralfor(5), equalTo("V"));
+  }
+
 }
