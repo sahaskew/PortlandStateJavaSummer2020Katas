@@ -15,11 +15,15 @@ public class Kata {
   }
 
   public static String romanNumeralfor(int i) {
+    // need a datastruture to store I, V, X -> 3000
     if(i==1) {
       return "I";
     }
     else if(i==5){
       return "V";
+    }
+    else if(i==10){
+      return "X";
     }
     return "empty";
   }
